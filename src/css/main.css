@@ -1,0 +1,127 @@
+body {
+   background-color: #070210;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #070210;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    background: transparent;
+    text-align: center;
+    padding: 20px;
+}
+  
+.loader img {
+    max-width: 100%;
+    height: auto;
+}
+
+.styletext{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.light{
+    font-weight: lighter;
+}
+
+.animation {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s, transform 2s;
+}
+  
+.animation.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/*Vistas 2*/
+.dock-navigation-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+  
+.barpage {
+    background-color: #dddcdc2c;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.dock-navigation:hover{
+    color: wheat;
+}
+  
+.dock-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.dock-navigation li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: inline;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+  
+.dock-navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.titledev{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.destext{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.titleeve{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.icons{
+    font-size: 30px;
+}
+.details{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+.btn-light{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
